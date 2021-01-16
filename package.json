@@ -4,6 +4,7 @@
   "scripts": {
     "start:container": "cd packages/container && yarn start",
     "start:marketing": "cd packages/marketing && yarn start",
+    "start:auth": "cd packages/auth && yarn start",
     "start": "run-p start:*"
   },
   "repository": {
